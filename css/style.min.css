@@ -668,12 +668,12 @@ pre {
 a.btn--disabled {
       pointer-events: none; }
 .temp-icon-left-arrow {
-  background-image: url(../img/sprite-05760661546860142.png);
+  background-image: url(../img/sprite-032984172224474984.png);
   background-position: 0px 0px;
   width: 32px;
   height: 32px; }
 .temp-icon-right-arrow {
-  background-image: url(../img/sprite-05760661546860142.png);
+  background-image: url(../img/sprite-032984172224474984.png);
   background-position: -36px 0px;
   width: 32px;
   height: 32px; }
@@ -718,6 +718,9 @@ a.btn--disabled {
       color: gray;
       opacity: 1; }
 .field-text__input:-ms-input-placeholder {
+      color: gray;
+      opacity: 1; }
+.field-text__input::-ms-input-placeholder {
       color: gray;
       opacity: 1; }
 .field-text__input::placeholder {
